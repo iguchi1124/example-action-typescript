@@ -2,10 +2,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "tsc -p ."
+    "build": "ncc build src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^20.6.4",
+    "@vercel/ncc": "^0.38.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
