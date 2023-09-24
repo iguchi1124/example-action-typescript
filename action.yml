@@ -1,0 +1,11 @@
+name: 'Example'
+inputs:
+  message:
+    required: true
+    default: 'Hello'
+outputs:
+  time:
+    description: 'Shows current time'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

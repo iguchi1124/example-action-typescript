@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.4",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^5.1.1"
+  },
+  "volta": {
+    "node": "20.7.0"
+  }
+}
